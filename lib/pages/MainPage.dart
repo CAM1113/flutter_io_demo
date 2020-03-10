@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_io_demo/main.dart';
 
 class MainPage extends StatelessWidget{
   @override
@@ -17,7 +18,9 @@ class MainPage extends StatelessWidget{
           children: <Widget>[
             FlatButton(
               child: Text("ImagePicker"),
-
+              onPressed: (){
+                Navigator.of(context).pushNamed(App.imagePickerDemo);
+              },
             )
           ],
         ),
