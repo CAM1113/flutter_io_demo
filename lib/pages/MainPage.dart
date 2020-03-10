@@ -21,7 +21,13 @@ class MainPage extends StatelessWidget{
               onPressed: (){
                 Navigator.of(context).pushNamed(App.imagePickerDemo);
               },
-            )
+            ),
+            FlatButton(
+              child: Text("QRImageDemo"),
+              onPressed: (){
+                Navigator.of(context).pushNamed(App.qrImageDemo);
+              },
+            ),
           ],
         ),
       ),

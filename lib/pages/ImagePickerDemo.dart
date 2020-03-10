@@ -26,7 +26,7 @@ class _ImagePickerDemoState extends State<ImagePickerDemo>{
             child: getImageView(),
           ),
           FlatButton(child: Text("拍照"),onPressed: ()async{
-            //
+
             image = await ImagePicker.pickImage(source: ImageSource.camera);
             setState(() {
 
