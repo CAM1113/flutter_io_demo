@@ -28,6 +28,12 @@ class MainPage extends StatelessWidget{
                 Navigator.of(context).pushNamed(App.qrImageDemo);
               },
             ),
+            FlatButton(
+              child: Text("BarcodeScanPage"),
+              onPressed: (){
+                Navigator.of(context).pushNamed(App.barcodeScanPage);
+              },
+            ),
           ],
         ),
       ),
