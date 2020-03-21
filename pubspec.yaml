@@ -26,6 +26,7 @@ dependencies:
   image_picker: ^0.6.3+4
   qr_flutter: ^3.1.0
   qr_code_scanner: ^0.0.12
+  url_launcher: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -47,6 +48,7 @@ flutter:
   assets:
   # assets-generator-begin
   # images/*
+    - images/head_bg.jpg
     - images/vgg16.png
   # assets-generator-end
   #  - images/a_dot_ham.jpeg

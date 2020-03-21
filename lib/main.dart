@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_io_demo/pages/ComponentDemo.dart';
 
 import 'package:flutter_io_demo/pages/ImagePickerDemo.dart';
 import 'package:flutter_io_demo/pages/MainPage.dart';
@@ -14,11 +15,14 @@ class App extends StatelessWidget {
   static const String imagePickerDemo = "imagePickerDemo";
   static const String qrImageDemo = "qrImageDemo";
   static const String barcodeScanPage = "BarcodeScanPage";
+  static const String componentPage = "ComponentPage";
+
   static final routeMap = {
     mainPage:(context) => MainPage(),
     imagePickerDemo:(context) => ImagePickerDemo(),
     qrImageDemo:(context)=>QRImagePageDemo(),
-    barcodeScanPage:(context)=>QRCodeScanPage()
+    barcodeScanPage:(context)=>QRCodeScanPage(),
+    componentPage:(context)=>ComponentPage(),
   };
   @override
   Widget build(BuildContext context) {
